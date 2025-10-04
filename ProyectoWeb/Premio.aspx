@@ -47,10 +47,10 @@
                     <p class="card-text text-secondary mb-3" style="font-size: 0.9rem;"><%= arti.Descripcion %></p>
                     
                     <div class="d-flex justify-content-between align-items-center border-top pt-3">
-                        <span class="fw-bold fs-5" style="color: #6c5ce7;">$<%= arti.Precio %></span>
+                        <span class="fw-bold fs-5" style="color: #077a45;">$<%= arti.Precio %></span>
                         <a href="FormularioCliente.aspx?id=<%: arti.Id %>" 
                            class="btn btn-sm px-3 py-2" 
-                           style="background-color: #6c5ce7; color: white; border-radius: 8px;">
+                           style="background-color: #077a45; color: white; border-radius: 8px;">
                             Seleccionar
                         </a>
                     </div>
