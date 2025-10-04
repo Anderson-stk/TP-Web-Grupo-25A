@@ -7,15 +7,11 @@ using System.Web.UI.WebControls;
 
 namespace ProyectoWeb
 {
-    public partial class Default : System.Web.UI.Page
+    public partial class MasterPage : System.Web.UI.MasterPage
     {
         protected void Page_Load(object sender, EventArgs e)
         {
 
-        }
-        protected void btnVoucher_Click(object sender, EventArgs e)
-        {
-            Response.Redirect("Canje.aspx");
         }
     }
 }

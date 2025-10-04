@@ -22,7 +22,7 @@ namespace Negocio
             try
             {
 
-                Datos.setearConsulta("SELECT A.Id as idArti, " +
+                Datos.setearConsulta("SELECT A.Id as idArticulo, " +
                                     "idMarca, " +
                                     "codigo, " +
                                     "nombre, " +
@@ -41,7 +41,7 @@ namespace Negocio
                 {
                     Articulo aux = new Articulo();
 
-                    aux.Id = (int)Datos.Lector["idArti"];
+                    aux.Id = (int)Datos.Lector["idArticulo"];
                     aux.Codigo = (string)Datos.Lector["codigo"];
                     aux.Nombre = (string)Datos.Lector["nombre"];
                     aux.Descripcion = (string)Datos.Lector["Descripcion"];
@@ -81,7 +81,7 @@ namespace Negocio
             try
             {
 
-                Datos.setearConsulta("SELECT A.Id as idArti, " +
+                Datos.setearConsulta("SELECT A.Id as idArticulo, " +
                                     "idMarca, " +
                                     "codigo, " +
                                     "nombre, " +
@@ -100,7 +100,7 @@ namespace Negocio
                 {
                     Articulo aux = new Articulo();
 
-                    aux.Id = (int)Datos.Lector["idArti"];
+                    aux.Id = (int)Datos.Lector["idArticulo"];
                     aux.Codigo = (string)Datos.Lector["codigo"];
                     aux.Nombre = (string)Datos.Lector["nombre"];
                     aux.Descripcion = (string)Datos.Lector["Descripcion"];

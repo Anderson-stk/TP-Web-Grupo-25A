@@ -11,16 +11,25 @@ namespace ProyectoWeb
 {
 
 
-    public partial class Default
+    public partial class Canje
     {
 
         /// <summary>
-        /// btnVoucher control.
+        /// exampleFormControlInput1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnVoucher;
+        protected global::System.Web.UI.WebControls.TextBox exampleFormControlInput1;
+
+        /// <summary>
+        /// btnSiguiente control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button btnSiguiente;
     }
 }

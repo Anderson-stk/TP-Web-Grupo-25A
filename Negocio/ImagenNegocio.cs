@@ -13,7 +13,7 @@ namespace Negocio
 {
     public class ImagenNegocio
     {
-        public List<Imagen> Lista(int _idArticulo)
+        public List<Imagen> Lista(int idArticulo)
         {
 
             List<Imagen> lista = new List<Imagen>();
@@ -21,8 +21,8 @@ namespace Negocio
 
             try
             {
-                Datos.setearConsulta("SELECT Id,IdArticulo,ImagenUrl FROM IMAGENES WHERE IdArticulo = @_idArticulo");
-                Datos.setearParametro("@_idArticulo", _idArticulo);
+                Datos.setearConsulta("SELECT Id,IdArticulo,ImagenUrl FROM IMAGENES WHERE IdArticulo = @idArticulo");
+                Datos.setearParametro("@idArticulo", idArticulo);
                 Datos.ejecutarLectura();
 
                 while (Datos.Lector.Read())
