@@ -7,7 +7,7 @@
         <div class="mb-4">
             <label for="exampleFormControlInput1" class="form-label fw-semibold" style="color: #077a45;">Ingresa el código del voucher</label>
             <div class="input-group">
-                <span class="input-group-text" style="background-color: e9fef9;">
+                <span class="input-group-text" style="background-color: #e9fef9;">
                     <i class="bi bi-ticket-perforated" style="color: #077a45;"></i>
                 </span>
                 <asp:TextBox CssClass="form-control form-control-lg" ID="exampleFormControlInput1" 

@@ -3,8 +3,8 @@
     <style>
     .hover-effect:hover {
         transform: translateY(-5px);
-        box-shadow: 0 10px 20px rgba(108, 92, 231, 0.1);
-    }
+        box-shadow: 0 10px 20px rgba(97, 230, 185, 0.1);
+    }    
 </style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
@@ -19,7 +19,7 @@
                             <div class="carousel-item <%= i == 0 ? "active" : "" %>">
                                 <img src="<%= arti.RutasImagenes[i] %>" 
                                      class="d-block w-100 card-img-top" 
-                                     style="height: 220px; object-fit: cover; filter: brightness(0.95);"
+                                     style="height: 380px; object-fit: cover; filter: brightness(0.95);"
                                      alt="<%= arti.Nombre %>">
                             </div>
                         <% } %>
